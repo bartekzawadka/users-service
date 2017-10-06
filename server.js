@@ -14,7 +14,7 @@ var app = express();
 var server = http.createServer(app);
 
 app.use(bodyParser.json());
-app.use('/', users);
+app.use('/api', users);
 
 server.listen(port, function () {
     console.log('Listening...');
