@@ -1,0 +1,20 @@
+{
+  "name": "users-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartekzawadka/users-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartekzawadka/users-service/issues"
+  },
+  "homepage": "https://github.com/bartekzawadka/users-service#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.0.0"
+  }
+}
